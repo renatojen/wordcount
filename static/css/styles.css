@@ -78,3 +78,11 @@ table tr:hover th.table-header {
 #github {
   font-size: 40px;
 }
+textarea {
+  resize: none;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  min-height:100%;
+  min-width:100%;
+}
