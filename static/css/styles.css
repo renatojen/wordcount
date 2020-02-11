@@ -2,15 +2,15 @@ html,body {
   height:100%;
 }
 h1 {
-  font-size: 70px;
+  font-size: 30px;
   color:#DDCCEE;
   margin-top: 50px;
   display: block;
 }
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   color:#DDCCEE;
-  /*margin-top: 50px;*/
+  margin-top: 50px;
   display: block;
 }
 .lead {

@@ -17,17 +17,15 @@
 <body>    
     <div class="container-full">
         <div class="row">
-            <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center">
-            	
-                <h1><img class="replace-image" src="/static/resources/logo.png"><br/>Wordcount</h1>
+            <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center">            	
+                <h2><img class="replace-image" src="/static/resources/logo.png" width="25%" height="25%"></h2>
                 <p class="lead"></p>                
                 <form action="{{url_for('count')}}" method="POST" id="countform">                  
                     <div class="row">
                         <div style="white-space: pre-line;">
-                           <h2>{{label}}</h2>
+                           <h1>{{label}}</h1>
                         </div>                                              
                      </div>
-                     <br>
                      <br>
                     <!--<div class="input-group" >-->
                         <textarea class="form-control input-lg" rows=5 cols=20 title="Enter text..." placeholder="Place your text here" type="text" id="text_input" name="text_input" required autofocus oninvalid="this.setCustomValidity('Please input some text!')" oninput="this.setCustomValidity('')"></textarea>

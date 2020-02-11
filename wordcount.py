@@ -13,7 +13,7 @@ import re
 
 def count_words(s):
   count = 0
-  s = re.sub(r'[^A-Za-z0-9]+', ' ', s)
+  s = re.sub(r'[^\w]+', ' ', s)
   s = s.strip(' ')
   if len(s) == 0:
     return 0
