@@ -21,7 +21,7 @@ Python packages:
 * MarkupSafe==1.1.1
 * Werkzeug==1.0.0
 
-##Usage
+## Usage
 
 Input words and click the "Count!" button. The page will reload itself, displaying the number of words found.
 
