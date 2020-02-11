@@ -60,4 +60,4 @@ This command will create a new Flask app and start your application. When your a
 Wordcount is compatible with the majority of popular browsers such as Google Chrome, Mozilla Firefox, Opera and mobile devices that supports HTML5.
    
 ## License
-This app is covered by the MGNU GENERAL PUBLIC license. For more information, see LICENSE for license information.
+This app is covered by the GNU GENERAL PUBLIC license. For more information, see LICENSE for license information.
