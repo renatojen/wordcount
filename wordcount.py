@@ -53,7 +53,7 @@ application=Flask(__name__)
 
 @application.route('/')
 def index():        
-   return render_template("index.html", label=" ")
+   return render_template("index.html", label="Waiting for some words...")
   
 #classify image, display image and classification results, generate audio results and save image data to database
 @application.route('/', methods=['POST'])

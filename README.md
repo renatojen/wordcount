@@ -1,5 +1,9 @@
 # Wordcount
 
+<p align="center">
+  <img src="https://wordcount.renatojensen.com/static/resources/logo.png">
+</p>
+
 You can try a live version of Wordcount here: https://wordcount.renatojensen.com/
 
 ## Requirements
