@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>WordCount</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/static/resources/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="static/css/styles.css" rel="stylesheet">
+</head>
+
+<body>    
+    <div class="container-full">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center">
+            	<h1>WordCount</h1>
+                <p class="lead"></p>                
+                <form action="{{url_for('count')}}" method="POST" id="countform">                  
+                    <br>
+                    <!--<img class="replace-image" src="{{img}}">-->
+                    <div class="row">
+                        <div style="white-space: pre-line;">
+                           <h2>{{label}}</h2>
+                        </div>
+                        <br>                                              
+                     </div>
+                     <br>
+                     <br>
+                    <div class="input-group">
+                        <input class="form-control input-lg" title="Enter text..." placeholder="Place your text here" type="text" id="text_input" name="text_input" required oninvalid="this.setCustomValidity('Please input some text!')" oninput="this.setCustomValidity('')">
+                        <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="submit" id="bt_submit">Count!</button></span>
+                    </div>
+                    <br>
+                    <br>                    
+                </form>
+                <a href="https://github.com/renatojen/wordcount" id="github" target="_blank"><i class="fa fa-github"></i></a>
+    			<p align="center">&copy; 2020 Renato Jensen Filho </p>     
+                </div>                
+            </div>
+        </div>  
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
