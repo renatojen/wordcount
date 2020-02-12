@@ -9,7 +9,10 @@
 
 #imports
 from flask import Flask, render_template, request
+from flask_sslify import SSLify
 import re
+
+ssl = False
 
 def count_words(s):
   count = 0
@@ -28,6 +31,8 @@ def count_words(s):
 
 #initializes flask application      
 application=Flask(__name__)
+if ssl:
+  sslify = SSLify(application)
 
 @application.route('/')
 def index():        
