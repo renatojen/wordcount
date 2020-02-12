@@ -16,7 +16,6 @@ Python packages:
 
 * Click==7.0
 * Flask==1.1.1
-* Flask-SSLify==0.1.5
 * itsdangerous==1.1.0
 * Jinja2==2.11.1
 * MarkupSafe==1.1.1
@@ -56,8 +55,6 @@ This command will create a new Flask app and start your application. When your a
 `Running on http://localhost:5000/ (Press CTRL+C to quit)`.
 
 4. Test you application acessing http://localhost:5000/ on your browser.
-
-The application comes with SSL disabled by default. If you wish to turn it on, change `ssl` variable to `True` in wordcount.py
 
 ## Compatibility
 Wordcount is compatible with the majority of popular browsers such as Google Chrome, Mozilla Firefox, Opera and mobile devices that supports HTML5.
