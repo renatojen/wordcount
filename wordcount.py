@@ -13,15 +13,7 @@ import re
 
 
 def count_words(s):
-  count = 0
-  s = re.sub(r'[^\w]+', ' ', s)
-  s = s.strip(' ')
-  if len(s) == 0:
-    return 0
-  for i in s:
-    if i == ' ':
-      count += 1
-  return count+1
+  return(len(re.findall(r'[\w]+', s)))
 
 #
 # Flask routines
